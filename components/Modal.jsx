@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 function Modal({ selectedImg, setSelectedImg, createdAt }) {
   const [love, setLove] = useState(() => localStorage.getItem("love") || 0);
@@ -66,13 +67,13 @@ function Modal({ selectedImg, setSelectedImg, createdAt }) {
               padding: "20px 0px",
             }}
           >
-            <span>
+            <motion.span whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
               <img
                 onClick={handleLoveClick}
                 style={{ all: "unset", cursor: "pointer" }}
                 src='https://img.icons8.com/fluent/48/000000/filled-like.png'
               />
-            </span>
+            </motion.span>
             <span style={{ padding: "0px 0px 0px 20px" }}>
               {love} people love this!
             </span>

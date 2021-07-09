@@ -73,6 +73,7 @@ img {
   width: 300px;
   display: flex;
   opacity: 0.8;
+  cursor: pointer;
 }
 img:hover {
   opacity: 1;

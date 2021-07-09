@@ -26566,6 +26566,9 @@ try {
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("input", {
+        style: {
+          cursor: "pointer"
+        },
         type: "file",
         onChange: changeHandler,
         __self: this,
@@ -26575,10 +26578,13 @@ try {
           columnNumber: 11
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("span", {
+        style: {
+          cursor: "pointer"
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28,
+          lineNumber: 32,
           columnNumber: 11
         }
       }, "+")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26586,7 +26592,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 34,
           columnNumber: 9
         }
       }, error ? /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26594,14 +26600,14 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 35,
           columnNumber: 20
         }
       }, error) : null, file ? /*#__PURE__*/_reactDefault.default.createElement("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 36,
           columnNumber: 19
         }
       }, file.name) : null, file && /*#__PURE__*/_reactDefault.default.createElement(_ProgressBarDefault.default, {
@@ -26610,7 +26616,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 37,
           columnNumber: 20
         }
       }))))
@@ -54959,9 +54965,17 @@ try {
         }
       }, docs && docs.map(doc => /*#__PURE__*/_reactDefault.default.createElement(_framerMotion.motion.div, {
         className: "img-wrap",
+        style: {
+          borderRadius: "8px",
+          overflow: "hidden"
+        },
         key: doc.id,
         whileHover: {
-          opacity: 1
+          opacity: 1,
+          scale: 1.1
+        },
+        whileTap: {
+          scale: 0.9
         },
         layout: true,
         onClick: () => {
@@ -54993,7 +55007,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 51,
           columnNumber: 15
         }
       })))))
@@ -64756,6 +64770,7 @@ try {
   _parcelHelpers.defineInteropFlag(exports);
   var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _framerMotion = require("framer-motion");
   var _jsxFileName = "C:\\Users\\abhinavanshul\\SIDEPROJECT\\photogram\\components\\Modal.jsx", _s = $RefreshSig$();
   function Modal({selectedImg, setSelectedImg, createdAt}) {
     _s();
@@ -64781,7 +64796,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18,
+          lineNumber: 19,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("img", {
@@ -64793,7 +64808,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
+          lineNumber: 28,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -64807,14 +64822,14 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 33,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 42,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("span", {
@@ -64826,7 +64841,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 43,
           columnNumber: 13
         }
       }, "Uploaded :", " "), /*#__PURE__*/_reactDefault.default.createElement("span", {
@@ -64839,7 +64854,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 52,
           columnNumber: 13
         }
       }, createdAt)), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -64851,14 +64866,20 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 63,
           columnNumber: 11
         }
-      }, /*#__PURE__*/_reactDefault.default.createElement("span", {
+      }, /*#__PURE__*/_reactDefault.default.createElement(_framerMotion.motion.span, {
+        whileHover: {
+          scale: 1.1
+        },
+        whileTap: {
+          scale: 0.9
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69,
+          lineNumber: 70,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("img", {
@@ -64871,7 +64892,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70,
+          lineNumber: 71,
           columnNumber: 15
         }
       })), /*#__PURE__*/_reactDefault.default.createElement("span", {
@@ -64881,7 +64902,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76,
+          lineNumber: 77,
           columnNumber: 13
         }
       }, love, " people love this!")))))
@@ -64898,7 +64919,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"1TraR":[function(require,module,exports) {
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","framer-motion":"5ufJB"}],"1TraR":[function(require,module,exports) {
 var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

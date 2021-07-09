@@ -24,8 +24,12 @@ function UploadForm() {
     <>
       <form>
         <label>
-          <input type='file' onChange={changeHandler} />
-          <span>+</span>
+          <input
+            style={{ cursor: "pointer" }}
+            type='file'
+            onChange={changeHandler}
+          />
+          <span style={{ cursor: "pointer" }}>+</span>
         </label>
         <div className='output'>
           {error ? <div className='error'>{error}</div> : null}

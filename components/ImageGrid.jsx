@@ -23,8 +23,10 @@ function ImageGrid({ setSelectedImg, setCreatedAt }) {
           docs.map((doc) => (
             <motion.div
               className='img-wrap'
+              style={{ borderRadius: "8px", overflow: "hidden" }}
               key={doc.id}
-              whileHover={{ opacity: 1 }}
+              whileHover={{ opacity: 1, scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
               layout
               onClick={() => {
                 setSelectedImg(doc.url);
