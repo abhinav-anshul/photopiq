@@ -64929,29 +64929,100 @@ try {
   _parcelHelpers.defineInteropFlag(exports);
   var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _utilBlob = require("../util/Blob");
+  var _utilBlobDefault = _parcelHelpers.interopDefault(_utilBlob);
   var _jsxFileName = "C:\\Users\\abhinavanshul\\SIDEPROJECT\\photogram\\components\\Title.jsx";
   function Title() {
     return (
-      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, null, /*#__PURE__*/_reactDefault.default.createElement("div", {
-        style: {
-          padding: "50px 0px",
-          fontSize: "3rem",
-          fontWeight: "700",
-          color: "#0761d1"
-        },
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, null, /*#__PURE__*/_reactDefault.default.createElement(_utilBlobDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 6,
+          lineNumber: 7,
           columnNumber: 7
         }
-      }, "PhotoPiq"))
+      }))
     );
   }
   _c = Title;
   exports.default = Title;
   var _c;
   $RefreshReg$(_c, "Title");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","../util/Blob":"5CxP4"}],"5CxP4":[function(require,module,exports) {
+var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _jsxFileName = "C:\\Users\\abhinavanshul\\SIDEPROJECT\\photogram\\util\\Blob.jsx";
+  function Blob() {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 5,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("svg", {
+        width: "300px",
+        /*height='50px'*/
+        viewBox: "25 70 100 100",
+        xmlns: "http://www.w3.org/2000/svg",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("style", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("path", {
+        fill: "#FF0066",
+        d: "M19.5,1.4C24.7,9.8,28.1,26.5,15.3,40.3C2.6,54.1,-26.3,64.9,-46.5,52.9C-66.8,40.8,-78.5,5.7,-69.3,-8C-60.1,-21.8,-30.1,-14.3,-11.5,-10.6C7.1,-6.8,14.3,-6.9,19.5,1.4Z",
+        transform: "translate(100 100)",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        "font-size": "2rem",
+        "z-index": "999",
+        fill: "white",
+        "font-size": "1.2rem",
+        x: "35",
+        y: "120",
+        class: "small",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 9
+        }
+      }, "Photopiq")))
+    );
+  }
+  _c = Blob;
+  exports.default = Blob;
+  var _c;
+  $RefreshReg$(_c, "Blob");
   helpers.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
